@@ -99,11 +99,11 @@ const More = () => {
   };
 
   const pVariation =
-    "flex flex-col w-full lg:w-3/5 text-base lg:text-xl font-regular text-slate-500 pb-3";
+    "flex flex-col w-full text-base lg:text-xl font-regular text-slate-500 pb-3";
   return (
-    <section id="more" className="flex flex-col lg:flex-row w-full lg:h-screen px-8 gap-10 lg:gap-0 mt-20 lg:mt-0">
-      <article className="flex flex-col w-full lg:w-[45%] justify-center items-center">
-        <HeadTitle className="pb-[10px] w-full text-start lg:w-3/5">More about Dan</HeadTitle>
+    <section id="more" className="flex flex-col xl:flex-row w-full max-w-[1440px] mx-auto xl:h-screen px-8 md:px-12 xl:px-16 gap-10 xl:gap-0 mt-20 xl:mt-0 justify-between">
+      <article className="flex flex-col w-full xl:max-w-[448px] justify-center items-center">
+        <HeadTitle className="pb-[10px] w-full text-start">More about Dan</HeadTitle>
         <p className={pVariation}>
           My journey as a developer began with an internship in back-end
           development, where I worked with Java Spring Boot.
@@ -119,12 +119,12 @@ const More = () => {
           for ...
         </p>
 
-        <a href="#footer" className="flex flex-col w-full lg:w-3/5 text-amber-500 text-base font-medium hover:text-amber-600">
+        <a href="#footer" className="flex flex-col w-full text-amber-500 text-base font-medium hover:text-amber-600">
           Call me
         </a>
       </article>
-      <article className="w-full lg:w-[55%]">
-        <div className="flex flex-col h-full max-w-[690px] justify-center items-center gap-y-5">
+      <article className="flex flex-col h-full justify-center items-center gap-y-5 w-full xl:max-w-[690px]">
+
         <Trail.Root isOpen={state.isOpenTrailFront} onClick={handleIsOpenTrailFront}>
           <Trail.Header>
             <Trail.Title isOpen={state.isOpenTrailFront}>Front-end</Trail.Title>
@@ -192,7 +192,6 @@ const More = () => {
             </ul>
           </Trail.Content>
         </Trail.Root>
-        </div>
       </article>
     </section>
   );

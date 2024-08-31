@@ -4,7 +4,7 @@ import { Link } from "../links/Link";
 
 const Discovery = () => {
   return (
-    <section id="home" className=" relative flex flex-col h-screen justify-center items-center px-4 md:pl-16 text-center z-0 overflow-hidden">
+    <section id="home" className=" relative flex flex-col h-screen justify-center items-center px-4 text-center z-0 overflow-hidden">
       <HeroBackground/>
       <p className="text-xs md:text-xl font-medium text-slate-400 mb-3 pointer-events-none">
         Hello world - this is my portfolio

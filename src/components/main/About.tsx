@@ -9,7 +9,7 @@ const About = () => {
         <img
           src={profile}
           alt="Danilo-photo"
-          className="lg:left-72 lg:top-40 xl:w-[436px] lg:h-[715px] object-cover rounded-lg z-10 xl:translate-x-20"
+          className="lg:left-72 lg:top-40 lg:w-[436px] xl:h-[715px] max-w-lg:max-h-[500px] object-cover rounded-lg z-10 xl:translate-x-20"
         />
       </article>
 
