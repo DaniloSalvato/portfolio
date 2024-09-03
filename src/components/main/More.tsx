@@ -101,34 +101,45 @@ const More = () => {
   const pVariation =
     "flex flex-col w-full text-base lg:text-xl font-regular text-slate-500 pb-3";
   return (
-    <section id="more" className="flex flex-col xl:flex-row w-full max-w-[1440px] mx-auto xl:h-screen px-8 md:px-12 xl:px-16 gap-10 xl:gap-0 mt-20 xl:mt-0 justify-between">
+    <section
+      id="more"
+      className="flex flex-col xl:flex-row w-full max-w-[1440px] mx-auto xl:h-screen px-8 md:px-12 xl:px-16 gap-10 xl:gap-0 mt-20 xl:mt-0 justify-between"
+    >
       <article className="flex flex-col w-full xl:max-w-[448px] justify-center items-center">
-        <HeadTitle className="pb-[10px] w-full text-start">More about Dan</HeadTitle>
+        <HeadTitle className="pb-[10px] w-full text-start">
+          More about Dan
+        </HeadTitle>
         <p className={pVariation}>
           My journey as a developer began with an internship in back-end
           development, where I worked with Java Spring Boot.
         </p>
         <p className={pVariation}>
-          This initial experience was crucial for my technical growth, providing
-          a solid understanding of back-end development principles and the
-          creation of scalable systems.
+          After this internship, I worked as a back-end developer for an
+          e-commerce company, using C# and .NET.
         </p>
         <p className={pVariation}>
-          After this internship, I worked as a back-end developer for an
-          e-commerce company, using C# and .NET. In this role, I was responsible
-          for ...
+          Now, I recently had the opportunity to intern as a front-end
+          developer, where I honed my skills in creating responsive and
+          interactive interfaces using HTML, CSS, and JavaScript. During this
+          internship, I also worked with cloud computing on AWS and obtained the
+          AWS Certified Cloud Practitioner certification.
         </p>
 
-        <a href="#footer" className="flex flex-col w-full text-amber-500 text-base font-medium hover:text-amber-600">
+        <a
+          href="#footer"
+          className="flex flex-col w-full text-amber-500 text-base font-medium hover:text-amber-600"
+        >
           Call me
         </a>
       </article>
       <article className="flex flex-col h-full justify-center items-center gap-y-5 w-full xl:max-w-[690px]">
-
-        <Trail.Root isOpen={state.isOpenTrailFront} onClick={handleIsOpenTrailFront}>
+        <Trail.Root
+          isOpen={state.isOpenTrailFront}
+          onClick={handleIsOpenTrailFront}
+        >
           <Trail.Header>
             <Trail.Title isOpen={state.isOpenTrailFront}>Front-end</Trail.Title>
-            <Trail.Action >
+            <Trail.Action>
               <IoIosArrowDown />
             </Trail.Action>
           </Trail.Header>
@@ -147,10 +158,13 @@ const More = () => {
           </Trail.Content>
         </Trail.Root>
 
-        <Trail.Root isOpen={state.isOpenTrailBack} onClick={handleIsOpenTrailBack}>
+        <Trail.Root
+          isOpen={state.isOpenTrailBack}
+          onClick={handleIsOpenTrailBack}
+        >
           <Trail.Header>
             <Trail.Title isOpen={state.isOpenTrailBack}>Back-end</Trail.Title>
-            <Trail.Action >
+            <Trail.Action>
               <IoIosArrowDown />
             </Trail.Action>
           </Trail.Header>
@@ -169,10 +183,13 @@ const More = () => {
           </Trail.Content>
         </Trail.Root>
 
-        <Trail.Root isOpen={state.isOpenTrailDevOps} onClick={handleIsOpenTrailDevOps}>
+        <Trail.Root
+          isOpen={state.isOpenTrailDevOps}
+          onClick={handleIsOpenTrailDevOps}
+        >
           <Trail.Header>
             <Trail.Title isOpen={state.isOpenTrailDevOps}>DevOps</Trail.Title>
-            <Trail.Action >
+            <Trail.Action>
               <IoIosArrowDown />
             </Trail.Action>
           </Trail.Header>

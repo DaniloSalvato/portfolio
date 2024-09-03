@@ -24,7 +24,7 @@ const ProjectItem = ({
   return (
     <div data-reverse={reverse} className="flex flex-col lg:flex-row mb-20 gap-20 lg:data-[reverse=true]:flex-row-reverse lg:data-[reverse=true]:ml-0">
       <article data-reverse={reverse} className="flex flex-col w-full lg:w-2/5 lg:h-[665px] justify-center items-start lg:data-[reverse=true]:ml-20 lg:mb-20 px-8 sm:px-12 lg:px-16">
-        <span className="bg-amber-600 text-slate-50 px-3 py-1 mb-3 w-fit text-[14px] font-medium rounded">
+        <span className="bg-amber-600 text-slate-50 px-3 py-1 mb-3 w-fit text-[14px] font-medium rounded text-nowrap">
           {area}
         </span>
         <h2 className="text-slate-900 font-semibold text-[40px] mb-3">

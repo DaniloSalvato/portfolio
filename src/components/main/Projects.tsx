@@ -13,7 +13,7 @@ const projects = [
     area: "Front-End",
     title: "Furniro - a ecommerce",
     description:
-      "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus ",
+      "Furniro is an e-commerce store specializing in furniture, offering a wide variety of products to transform any space. With a focus on design, quality, and convenience.",
     technologies: [jsIcon, tsIcon, reactIcon, tailwindIcon],
     gitHubURL: "https://github.com/DaniloSalvato/Furniro",
     thumbnail: furniroThumb,

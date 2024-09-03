@@ -2,7 +2,7 @@ import profile from "../../assets/Perfil.jpg";
 import { HeadTitle } from "../typography/HeadTitle";
 
 const About = () => {
-  const pVariation = "w-full text-base lg:text-xl text-slate-400 mb-4";
+  const pVariation = "w-full text-base lg:text-xl text-slate-500 mb-4";
   return (
     <section id="about" className="flex flex-col-reverse gap-10 xl:gap-0 xl:flex-row w-full xl:h-screen">
       <article className="flex justify-center xl:justify-end items-center w-full px-8 py-8 xl:w-2/6 h-full bg-amber-600 -z-10">
