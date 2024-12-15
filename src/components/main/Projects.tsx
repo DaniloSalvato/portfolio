@@ -11,7 +11,7 @@ import plantPeaceThumb from "../../assets/projects/plantPeace-thumb.png";
 const projects = [
   {
     area: "Front-End",
-    title: "Furniro - a ecommerce",
+    title: "Furniro",
     description:
       "Furniro is an e-commerce store specializing in furniture, offering a wide variety of products to transform any space. With a focus on design, quality, and convenience.",
     technologies: [jsIcon, tsIcon, reactIcon, tailwindIcon],

@@ -11,6 +11,9 @@ const trailsFront = [
   "React",
   "Tailwind",
   "Redux",
+  "Next",
+  "Zustand",
+  "React Query"
 ];
 
 const trailsBack = [
@@ -140,7 +143,7 @@ const More = () => {
           <Trail.Header>
             <Trail.Title isOpen={state.isOpenTrailFront}>Front-end</Trail.Title>
             <Trail.Action>
-              <IoIosArrowDown />
+              <IoIosArrowDown className={`transition-transform ${state.isOpenTrailFront ? "rotate-180": ""}`}/>
             </Trail.Action>
           </Trail.Header>
 
@@ -165,7 +168,7 @@ const More = () => {
           <Trail.Header>
             <Trail.Title isOpen={state.isOpenTrailBack}>Back-end</Trail.Title>
             <Trail.Action>
-              <IoIosArrowDown />
+              <IoIosArrowDown className={`transition-transform ${state.isOpenTrailBack ? "rotate-180": ""}`}/>
             </Trail.Action>
           </Trail.Header>
 
@@ -190,7 +193,7 @@ const More = () => {
           <Trail.Header>
             <Trail.Title isOpen={state.isOpenTrailDevOps}>DevOps</Trail.Title>
             <Trail.Action>
-              <IoIosArrowDown />
+              <IoIosArrowDown className={`transition-transform ${state.isOpenTrailDevOps ? "rotate-180": ""}`}/>
             </Trail.Action>
           </Trail.Header>
 

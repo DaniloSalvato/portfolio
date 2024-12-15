@@ -12,7 +12,7 @@ export const TrailRoot = ({ isOpen, children, onClick }: TrailRootProps) => {
       <div
         data-isopen={isOpen}
         onClick={onClick}
-        className="flex flex-col w-full h-20 py-6 px-6 border border-slate-200 justify-center items-center rounded-md transition-all duration-1000 data-[isopen=true]:h-fit cursor-pointer"
+        className="flex flex-col w-full h-20 py-6 px-6 border border-slate-200 justify-center items-center rounded-md transition-all duration-700 ease-in-out data-[isopen=true]:h-fit cursor-pointer"
       >
         {children}
       </div>

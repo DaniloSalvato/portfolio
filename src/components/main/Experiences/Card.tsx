@@ -18,7 +18,7 @@ const Card = ({
   description,
 }: cardProps) => {
   return (
-    <div className="flex flex-col w-full sm:w-4/5 lg:w-3/5 justify-center items-start text-slate-400 mt-[41px] md:mt-[82px]">
+    <div className="flex flex-col w-full sm:w-4/5 lg:w-3/5 justify-center items-start text-slate-400 my-12">
       {isNew && <span className="text-base pb-5">Most Recently</span>}
       <h2 className="text-slate-800 text-2xl lg:text-[32px] font-semibold leading-9 pb-5">{title}</h2>
       <h3 className="text-amber-600 text-xl font-medium pb-5">{company}</h3>
