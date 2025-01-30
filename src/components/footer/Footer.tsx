@@ -9,7 +9,7 @@ const Footer = () => {
         You can find me, right here ...
       </p>
       <h2 className="text-slate-50 pt-10 font-medium text-lg sm:text-4xl lg:text-5xl">
-        Danilo_salvato@hotmail.com
+        danilo_salvato@hotmail.com
       </h2>
       <div className="flex pt-14 gap-8 pb-[87px]">
         <a className="hover:text-slate-500" href="https://www.instagram.com/dan.miguel02/" target="_blank">Instagram</a>
